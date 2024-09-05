@@ -4,6 +4,8 @@ The purpose of these files is to extend the Romer-Romer (2004) monetary policy s
 
 When using this data in your work, cite Wieland-Yang (2019) along with Romer-Romer (2004) as a reference.
 
+A stable version of this package is available at [ICPSR](https://www.openicpsr.org/openicpsr/project/135741/).
+
 ## Contents:
 1. `RR_monetary_shock_update.do` \
 This code file generates three datasets, `RR_monetary_shock_monthly`, `RR_monetary_shock_quarterly`, and `RR_monetary_shock_annual`. These correspond to the monetary shock series at monthly, quarterly, and annual frequency. All datasets are provided in Stata (`.dta`) and plain text (`.txt`) format. Each file contains four variables. The date variable `date`, `resid` are the original Romer-Romer (2004) shocks, `resid_romer` are the monetary policy shocks based on the original Romer-Romer (2004) regression, and `resid_full` are the monetary policy shocks based on running the Romer-Romer (2004) regression on the full 1969-2007 sample.
